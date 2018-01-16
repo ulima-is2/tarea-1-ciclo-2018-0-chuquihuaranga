@@ -1,0 +1,14 @@
+﻿1. Pregunta 1
+Desarrollar un product backlog que contemple 5 historias de usuario. Cada historia de usuario debe estar nombrada utilizando el formato Connextra así como especificada utilizando el lenguaje Gherkin.
+
+
+1. Como usuario quiero unirme de forma estándar a un partido especifico.
+2. Como usuario quiero ser notificado cuando mi partido haya conseguido los 10 participantes necesarios.
+3. Como usuario quiero tomar iniciativa y organizar un partido.
+4. Como organizador quiero realizar el pago online para confirmar reserva de la cancha.
+5. Como organizador quiero visualizar la lista de participantes de mi partido.
+
+
+1. Pregunta 2
+2. Pregunta 3
+3. Pregunta 4
