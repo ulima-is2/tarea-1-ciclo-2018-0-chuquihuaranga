@@ -1,8 +1,9 @@
-﻿1. Pregunta 1
-Desarrollar un product backlog que contemple 5 historias de usuario. Cada historia de usuario debe estar nombrada utilizando el formato Connextra así como especificada utilizando el lenguaje Gherkin.
+﻿Pregunta 1
+Desarrollar un product backlog que contemple 5 historias de usuario. Cada historia de usuario debe estar nombrada utilizando
+el formato Connextra así como especificada utilizando el lenguaje Gherkin.
 
 
-1. 
+	1.
 	FEATURE: Como usuario quiero unirme de forma estándar a un partido especifico y asi saber con quienes jugaré.
 
 	SCENARIO: Unirse a un partido existente.
@@ -17,7 +18,7 @@ Desarrollar un product backlog que contemple 5 historias de usuario. Cada histor
 	WHEN: El usuario intente seleccionar un partido del area de partidos pendientes.
 	THEN: El usuario no encontrará ningun partido él podrá organizar un partido.
 
-2. 
+	2.
 	FEATURE: Como usuario quiero ser notificado cuando mi partido haya conseguido los 10 participantes necesarios y así organizar mi tiempo para la fecha del partido.
 	
 	SCENARIO: El usuario esta en lista de espera para un partido.
@@ -30,23 +31,32 @@ Desarrollar un product backlog que contemple 5 historias de usuario. Cada histor
 	WHEN: El organizador cancela el partido.
 	THEN: El usuario es notificado de la cancelación de su partido.
 
-3. 	FEATURE: Como usuario quiero tomar iniciativa y organizar un partido para poder jugar cuando nadie haya creado un partido.
+	3.
+	FEATURE: Como usuario quiero tomar iniciativa y organizar un partido para poder jugar cuando nadie haya creado un partido.
 
-	SCENARIO:
-	GIVEN:
-	AND:
-	WHEN:
-	THEN:
+	SCENARIO: Crear un nuevo partido.
+	GIVEN: Estar logueado en el sistema.
+	AND: Estar en la pantalla de inicio.
+	WHEN: El usuario selecciona crear nuevo partido.
+	THEN: Cambia la lista de partidos disponibles por una lista de usuarios que se unen a tu partido.
 
-	SCENARIO:
-	GIVEN:
-	AND:
-	WHEN:
-	THEN:
-4. Como organizador quiero realizar el pago online para confirmar reserva de la cancha y no quedarnos sin canchas disponibles.
-5. Como organizador quiero visualizar la lista de participantes de mi partido para conocer a los participantes.
+	4.
+	FEATURE: Como organizador quiero realizar el pago online para confirmar reserva de la cancha y no quedarnos sin canchas disponibles.
+	
+	SCENARIO: Pagar via online la reserva de la cancha.
+	GIVEN: Tener un partido con 10 jugadores completos.
+	WHEN: El organizador, en la pantalla de inicio de la app, seleccione confirmar reserva.
+	THEN: Se lanzará el módulo de pago para completar la reserva.
 
+	5.
+	FEATURE: Como organizador quiero visualizar la lista de participantes de mi partido para conocer a los participantes.
 
-1. Pregunta 2
-2. Pregunta 3
-3. Pregunta 4
+	SCENARIO: Visualizar los participantes de mi partido.
+	GIVEN: El partido ha sido creado.
+	AND: El partido contiene participantes.
+	WHEN: El organizador se situe en la pantalla de inicio.
+	THEN: La lista de jugadores participantes estará presente para su visualización en el area de partidos.
+
+Pregunta 2
+Pregunta 3
+Pregunta 4
